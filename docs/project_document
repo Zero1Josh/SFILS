@@ -1,0 +1,6 @@
+I Used Python to integrate with MySQL.
+In MySQL, I converted the .xlsx file into a .csv file in order to import it to MySQL.
+
+I created all my tables under the schema named sfils_db
+
+In python, in order to connect my MySQL, I installed the MySQL connector so it could communicate with my MySQL database.
