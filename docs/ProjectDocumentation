@@ -1,0 +1,17 @@
+This is how you run this program.
+
+I have two python files: 
+one that loads the data (I put this in the scripts: load_data.py)
+one that is the main app (main.py) which shows these following data when you run:
+- Repeating patrons
+- Total renewals
+- Most Active Patron
+
+Python packages to install: pandas and mysql-connector-python
+
+To run this program:
+- load up sifls2026.sql on Workbench. You should have four tables( )
+- I used PyCharm as my IDE and for both python files, add your password from environment variable: In PyCharm go to: Run -> Edit Configuration -> In Environment Variable, type in SQL_PASSWORD=yourpassword (add your password here)
+- Turn the SFPL data set from excel to csv and then add it to the pycharm folder that you are running the python files with
+- Load data once: run load_data.py
+- Run main.py to find the results
